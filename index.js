@@ -26,4 +26,4 @@ app.use(bodyParser.json());
 
 app.use('/v1/products', products);
 
-app.listen(port, () => console.log('API WMT Workshop now running on port', port));
+app.listen(port, () => console.log('API WMT now running on port', port));
